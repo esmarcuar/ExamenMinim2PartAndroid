@@ -24,5 +24,11 @@ public class MenuActivity extends AppCompatActivity {
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
     }
+    public void buttonProfile2(android.view.View v) {
+
+        Intent intent = new Intent(this, AbusoActivity.class);
+        startActivity(intent);
+    }
+
 
 }
